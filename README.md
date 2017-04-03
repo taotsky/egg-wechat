@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-wechat.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-wechat
-[travis-image]: https://img.shields.io/travis/eggjs/egg-wechat.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-wechat
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-wechat.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-wechat?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-wechat.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-wechat
+[travis-image]: https://img.shields.io/travis/JKShare/egg-wechat.svg?style=flat-square
+[travis-url]: https://travis-ci.org/JKShare/egg-wechat
+[codecov-image]: https://img.shields.io/codecov/c/github/JKShare/egg-wechat.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/JKShare/egg-wechat?branch=master
+[david-image]: https://img.shields.io/david/JKShare/egg-wechat.svg?style=flat-square
+[david-url]: https://david-dm.org/JKShare/egg-wechat
 [snyk-image]: https://snyk.io/test/npm/egg-wechat/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-wechat
 [download-image]: https://img.shields.io/npm/dm/egg-wechat.svg?style=flat-square
@@ -45,6 +45,16 @@ exports.wechat = {
 ```js
 // {app_root}/config/config.default.js
 exports.wechat = {
+  appid: '',
+  appsecret: '',
+  token: '',
+  encodingAESKey: '',
+  pay: {
+    partnerKey: '',
+    mchId: '',
+    notifyUrl: '',
+    pfx: ''
+  },
 };
 ```
 
@@ -56,7 +66,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/JKShare/egg-wechat/issues).
 
 ## License
 
