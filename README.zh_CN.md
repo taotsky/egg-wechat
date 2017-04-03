@@ -40,7 +40,7 @@ egg-wechat 版本 | egg 1.x
 
 - co-wehcat
 - co-wechat-api
-- co-wechat-pay
+- co-wechat-payment
 - co-wechat-oauth
 
 -->
@@ -71,7 +71,7 @@ exports.wechat = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
+请到 [egg issues](https://github.com/JKShare/egg/issues) 异步交流。
 
 ## License
 
