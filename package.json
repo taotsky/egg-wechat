@@ -8,11 +8,16 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "wechat",
+    "wechat-api",
+    "wechat-oauth",
+    "wechat-payment"
   ],
   "dependencies": {
     "co-wechat": "^1.0.0",
     "co-wechat-api": "^2.7.1",
+    "co-wechat-body": "^0.1.6",
     "co-wechat-oauth": "^1.0.1",
     "co-wechat-payment": "^0.2.0"
   },
