@@ -21,11 +21,4 @@ describe('test/wechat.test.js', () => {
       .expect('hi, wechat')
       .expect(200);
   });
-
-  it('should GET /wx', () => {
-    return request(app.callback())
-      .get('/wx')
-      .expect('hi, wechat')
-      .expect(200);
-  });
 });
