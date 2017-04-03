@@ -71,7 +71,7 @@ exports.wechat = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/JKShare/egg/issues) 异步交流。
+请到 [egg issues](https://github.com/JKShare/egg-wechat/issues) 异步交流。
 
 ## License
 
