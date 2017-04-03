@@ -1,5 +1,9 @@
+/**
+ * Created by jks on 2017/4/3.
+ */
 'use strict';
+const wechat = require('./lib/wechat');
 
 module.exports = agent => {
-  // console.log('agent.config.env =', agent.config.env);
+  if (agent.config.wechat.appid) wechat(agent);
 };
